@@ -12,8 +12,8 @@ public class LauchBrowserTest {
 	@Test
 	public void OpenBrowser()  {
 		WebDriver driver;
-		//System.setProperty("webdriver.gecko.driver","/usr/local/bin/geckodriver");
-		System.setProperty("webdriver.gecko.driver", ".\\Driver\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver","/usr/local/bin/geckodriver");
+		//System.setProperty("webdriver.gecko.driver", ".\\Driver\\geckodriver.exe");
 
 		//Set Firefox Headless mode as TRUE
 		FirefoxOptions options = new FirefoxOptions();
